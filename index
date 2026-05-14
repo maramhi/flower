@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>متجر الزهور</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0fff0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #6b8e23;
+            color: white;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            margin: 10px;
+            object-fit: cover;
+        }
+
+        .card {
+            display: inline-block;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .section {
+            padding: 30px;
+        }
+
+        input, textarea {
+            width: 250px;
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #6b8e23;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #6b8e23;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #6b8e23;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 متجر الزهور</h1>
+
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">تواصل</a>
+    </nav>
+</header>
+
+<!-- الرئيسية -->
+<div id="home" class="container">
+
+    <h2>أجمل الزهور الطبيعية</h2>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d">
+        <p>زهور بنفسجية 🌸</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7">
+        <p>زهور صفراء 🌼</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551">
+        <p>حديقة زهور 🌷</p>
+    </div>
+
+</div>
+
+<!-- من نحن -->
+<div id="about" class="section">
+
+    <h2>من نحن</h2>
+
+    <p>
+        متجر الزهور يقدم أجمل أنواع الزهور الطبيعية
+        وتنسيقات مميزة لجميع المناسبات بأفضل جودة.
+    </p>
+
+</div>
+
+<!-- التواصل -->
+<div id="contact" class="section">
+
+    <h2>تواصل معنا</h2>
+
+    <p>📞 رقم التواصل: +966500000000</p>
+    <p>📧 البريد الإلكتروني: flowershop@gmail.com</p>
+
+    <form>
+        <input type="text" placeholder="اسمك"><br>
+
+        <input type="email" placeholder="ايميلك"><br>
+
+        <textarea placeholder="اكتب رسالتك"></textarea><br>
+
+        <button>إرسال</button>
+    </form>
+
+</div>
+
+<footer>
+    <p>©️ جميع الحقوق محفوظة - متجر الزهور</p>
+</footer>
+
+</body>
+</html>
